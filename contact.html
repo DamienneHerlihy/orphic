@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+
+<html>
+	
+<head>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400|Rouge+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<script type="text/javascript" src="script.js"></script>
+	<title>Orphic Contact Page</title>
+</head>
+
+<body class="contact">
+	<div class="headerbox">
+		<header> 
+			<h1 class="logoo"> Orphic </h1>
+			<img class="headerimg" src="images/header.png"  width="35%" >
+		</header>
+	</div>
+
+	<!-- nav bar -->
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="profile.html">Profile</a>
+	  <a href="about.html">About</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="order.html">Order</a>
+	  <a href="index.html">Log Out</a>
+	</div>
+
+	<div class="navicon">
+		<span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+	</div>
+
+	<script>
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+
+	
+
+	
+	<div class="column1">
+		
+		<h1 class="title4"> Contact Us On </h1>
+		<div class="left">
+			
+			
+			<div class="dropdownsleft">
+			<img id="phone" src="images/phone.png" height="12%" width="12%">
+				<div class="dropdown">
+			  		<button class="dropbtn">Phone</button>
+				  	<div class="dropdown-content">
+				   		<h4> +04 499 0201 </h4>
+				  	</div>
+				</div>
+					
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+
+				<img id="email" src="images/email.png" height="12%" width="12%">
+				<div class="dropdown">
+			  		<button class="dropbtn">Email</button>
+			 		 <div class="dropdown-content">
+			   			 <h4 > Orphic@gmail.com </h4>
+			  		</div>
+				</div>
+					
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+					<br>
+
+				<img id="location" src="images/map.png" height="15%" width="15%">
+				<div class="dropdown">
+			  		<button class="dropbtn">Location</button>
+
+			  		<div class="dropdown-content">	
+			    		<h4 > 132 Allen Street <br> Wellington Central <br> 6011 </h4>
+			    	
+						<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.7115627360863!2d174.77981961633435!3d-41.29338157927301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d38afd07518d5ef%3A0xe2c20bba876eafe!2s132+Allen+St%2C+Te+Aro%2C+Wellington+6011!5e0!3m2!1sen!2snz!4v1505630283560" width=500 height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						
+			  		</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+	
+	<div class="column1">
+		<div class="chat">
+			<h1 class="title5"> Let Us Know Now </h1>
+			<h3 class="title10"> If you wish to contact us right a way send us a quick message <br> here and someone will reply as soon as possible.</h3>
+
+				<br>
+
+			<input type="name2" placeholder="Name" name="uname" required>
+	    		<br>
+	    		<br>
+	    		<br>
+	    		<br>
+	    	<input type="email2" placeholder="Email" name="email" required>
+	    		<br>
+	    		<br>
+	    		<br>
+	    		<br>
+	    	<input type="message" placeholder="Message" name="psw" required>
+				<br>
+				<br>
+				<br>
+				<br>
+			<a href="contact.html">
+				<button class="submit2" type="reset"> Send Message </button>
+			</a>
+		</div>
+	</div>
+
+</body>
+
+</html>
+
+<!--
+Reference
+nav bar, input and buttton code sourced from https://www.w3schools.com/ and edited.
+google map sourced from https://www.google.co.nz/maps/place/132+Allen+St,+Te+Aro,+Wellington+6011/@-41.2933816,174.7798196,17z/data=!3m1!4b1!4m5!3m4!1s0x6d38afd07518d5ef:0xe2c20bba876eafe!8m2!3d-41.2933816!4d174.7820083 -->

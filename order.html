@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+
+<html>
+	
+<head>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400|Rouge+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<title>Orphic Order Page</title>
+</head>
+
+<body class="order">
+	<div class="headerbox">
+		<header> 
+			<h1 class="logoo"> Orphic </h1>
+			<img class="headerimg" src="images/header.png"  width="35%" >
+		</header>
+	</div>
+
+	<!--nav bar -->
+	<div id="mySidenav" class="sidenav" >
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="profile.html">Profile</a>
+	  <a href="about.html">About</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="order.html">Order</a>
+	  <a href="index.html">Log Out</a>
+	</div>
+
+	<div class="navicon">
+		<span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+	</div>
+
+	<script>
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+	<center>
+		<h1 class="title11"> Make your Orphic order now </h1>
+			
+		<h3 class="title10"> Make your one time order of our dream reading technology below.</h3>
+	</center>
+	<div class="column">
+		<div class="priceinfo">
+		<center>
+				<br>
+				<br>
+			<img src="images/chip.png" width="46.5%" height="46.5%">
+				
+			<p class="price">$ 150.00</p>
+			<p class="price">Quantity: 1</p>
+		</center>
+		</div>
+	</div>
+	<div class="column">
+		<div class="orderinfo">
+			<input type="name2" placeholder="Name" name="uname" required>
+				<br>
+				<br>
+				<br>
+				<br>
+			<input type="email2" placeholder="Email" name="email" required>
+				<br>
+				<br>
+				<br>
+				<br>			
+			<input type="name2" placeholder="Address" name="uname" required>
+				<br>
+				<br>
+				<br>
+				<br>
+			<input type="name2" placeholder="Coutry" name="uname" required>
+				<br>
+				<br>
+				<br>
+				<br>
+			<input type="name2" placeholder="Post Code" name="uname" required>
+		</div>
+	</div>
+	<div class="column">
+
+			<br>
+	
+		<div class="cardcenter" >
+			<label for="visa" class="card"></label>
+			<input type="radio" name="card" class="visa" value="visa">
+			<img class="card" src="images/visa.png" height="11.5%" width="11.5%">
+			
+
+			<label for="master" class="card1"></label>
+			<input type="radio" name="card" class="master" value="master">
+			<img class="card" src="images/mastercard.png" height="100%" width="100">
+		</div>
+			
+			<br>
+			<br>
+
+		<center>
+			<div class="cardinfo">
+				<input type="name2" placeholder="Name on Card" name="uname" required>
+					<br>
+					<br>
+					
+				<input type="name2" placeholder="00-0000-0000000-00" name="uname" required>
+					<br>
+					<br>
+					
+				<input type="name2" placeholder="MM / YY" name="uname" required>
+					<br>
+					<br>
+					
+				<input type="name2" placeholder="CV" name="uname" required>
+					<br>
+					<br>
+
+				<a href="order.html">
+				<button class="submit2" type="reset"> Submit Order </button>
+			</a>
+			</div>
+		</center>
+	</div>
+
+	
+
+
+</body>
+
+</html>
+
+<!--
+Reference
+nav bar, input, buttton, and label code sourced from https://www.w3schools.com/ and edited  -->

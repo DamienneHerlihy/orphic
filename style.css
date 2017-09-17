@@ -1,0 +1,500 @@
+header{
+	font-family: 'Rouge Script', cursive;
+	font-size: 40px;
+	color: rgb(215, 217, 228);
+	padding-left: 2%;
+	border: none;
+	position: static;
+}
+.logoo{
+	padding-bottom: 10px;
+}
+.headerbox {
+	position: static;
+	background-color: rgb(162, 182, 200);
+	width: 100%
+    height: 50%;
+    padding-top: 0.5em;
+    margin-left: -1em;
+    margin-right: -1em;
+    margin-top: -3.5em;
+}
+.headerimg {
+	float: right;
+	margin-top: -4.2em;
+	position: static;
+	height: 120px;
+	z-index: 3;
+}
+
+
+/* home */
+
+.home {
+	background-color: rgb(58, 78, 109);
+}
+
+.heading {
+	font-family: 'Rouge Script', cursive;
+	font-size: 1000%;
+	color: rgb(162, 182, 200);
+	margin-top: -1.2em;
+	margin-left: 0.7em;
+}
+
+.subheading {
+	font-family: 'Roboto', sans-serif;
+	font-size: 25px;
+	color: rgb(162, 182, 200);
+	margin-top: -160px;
+	
+}
+
+.title1 {
+	font-family: 'Rouge Script', cursive;
+	color: rgb(162, 182, 200);
+	font-size: 90px;
+	text-align: center;
+	margin-bottom: 0.1em;
+}
+hr {
+	margin-bottom: 4em;
+}
+/*input and button code*/
+/*Code sourced from from www.w3schools.com/ and editied it for site*/
+input[type=name1],input[type=password1],
+input[type=name], input[type=email], 
+input[type=password]{
+    width: 550px;
+    padding: 10px 20px;
+    background-color: rgb(162, 182, 200);
+	color: rgb(33, 40, 66);
+    border: 3px;
+    border-radius: 12px; 
+	opacity: 0.8;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+button {
+	background-color: rgb(162, 182, 200);
+	color: rgb(33, 40, 66);
+    padding: 10px 15px;
+    border: 3px;
+    width: 550px;
+	border-radius: 12px; 
+	opacity: 0.8;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+button:hover {
+    opacity: 1;
+}
+.column2 {
+	width:50%;
+	float: left;
+}
+.lefthome {
+	margin-left: auto;
+	width:80%;
+	margin-right: auto;
+	margin-bottom: 27em;
+}
+.righthome {
+	margin-left: auto;
+	width:60%;
+	margin-right: auto;
+	margin-bottom: 25em;
+}
+.gotoabout {
+	background-color: rgb(33, 40, 66);
+    width: 100%;
+    color: rgb(162, 182, 200);
+    font-size: 40px;
+    padding: 45px 15px;
+	opacity: 0.8;	
+}
+
+/* about */
+
+.about {
+	background-color: rgb(215, 217, 228);
+}
+
+
+.title3 {
+	font-family: 'Rouge Script', cursive;
+	color: rgb(58, 78, 109);
+	font-size: 90px;
+	text-align: center;
+}
+.info1 {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(58, 78, 109);
+	font-size: 35px;
+	text-align: center;
+	margin-top: -1.5em;
+}
+.subtitle1{
+	font-family: 'Rouge Script', cursive;
+	color: rgb(58, 78, 109);
+	font-size: 60px;
+	text-align: center;
+}
+.info2 {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(58, 78, 109);
+	font-size: 20px;
+	text-align: center;
+	margin-top: -1.5em;
+}
+
+.gotosignup {
+	font-size: 20px;
+	margin-top: 2em;
+}
+
+
+/* contact */
+
+.contact {
+	background-color: rgb(215, 217, 228);
+}
+.title4, .title5 {
+	font-family: 'Rouge Script', cursive;
+	color: rgb(58, 78, 109);
+	font-size: 70px;
+}
+.title4 {
+	margin-left: 8em; 
+}
+.title10 {
+	color: rgb(33, 40, 66);
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	margin-top: -2em;
+	margin-bottom: 2em;
+}
+.contactinfo, .number {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(58, 78, 109);
+	font-size: 20px;
+	margin-left:6em;
+}
+input[type=name2], input[type=email2], 
+input[type=message] {
+    width: 550px;
+    padding: 15px 20px;
+    background-color: rgb(162, 182, 200);
+	color: rgb(33, 40, 66);
+    border: 3px;
+    border-radius: 12px; 
+	opacity: 0.8;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+input[type=message] {
+ 	padding-bottom:210px;
+}
+.submit2 {
+	padding: 15px 20px;
+}
+.column1{
+	width:50%;
+	float: left;
+}
+.left {
+	margin-left: auto;
+	width:80%;
+	margin-right: auto;
+}
+.chat {
+	margin-left: auto;
+	width:100%;
+	margin-right: auto;
+}
+
+/*dropdown button code*/
+/*Code sourced from from www.w3schools.com/ and editied it for site*/
+.dropbtn {
+   	background-color: rgb(215, 217, 228);
+ 	font-family: 'Roboto', sans-serif;
+	color: rgb(58, 78, 109);
+	font-size: 30px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 170px;
+    margin-top: -7em;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(215, 217, 228);
+    z-index: 1;
+    font-family: 'Roboto', sans-serif;
+	color: rgb(58, 78, 109);
+	font-size: 20px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: rgb(162, 182, 200);
+}
+.map {
+	opacity: 0.7;
+}
+.dropdownsleft {
+	margin-left: 5em;
+}
+#phone {
+	margin-left: 30em;
+	margin-right: 3.5em;
+}
+#email {
+	margin-left: 32em;
+	margin-right: 2.5em;
+}
+#location {
+	margin-left: 32.5em;
+	margin-right: 2.5em;
+}
+
+
+/* order */
+
+.order {
+	background-color: rgb(215, 217, 228);
+}
+.title11 {
+	font-family: 'Rouge Script', cursive;
+	color: rgb(58, 78, 109);
+	font-size: 70px;
+
+}
+hr {
+	width: 60%;
+	border-color: : rgb(58, 78, 109);
+}
+.price {
+    border-radius: 12px;
+    padding: 13px; 
+    width: 330px; 
+    background-color: rgb(162, 182, 200);
+    color: rgb(33, 40, 66); 
+    text-align: center;
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1.8em;
+    font-size: 20px
+}
+.priceinfo{
+	margin-left: 17em;
+	width:80%;
+	margin-right: auto;
+	margin-top: -0.5em;
+}
+.orderinfo {
+	margin-left: auto;
+	width:70%;
+	margin-right: auto;
+	margin-top: 2.4em;
+}
+.cardinfo {
+	margin-right: 100%;
+	margin-top: 1em;
+}
+
+.column{
+	width:33.3%;
+	float: left;
+}
+.card{
+	margin-top: 2em;
+	margin-left: 2%;
+	margin-right: 2%;
+s
+}
+.visa,  {
+	margin-top: 6em;
+	float: left;
+}
+.card1 {
+	width: 80%
+	margin-top: 2em;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 3.5em;
+}
+.master {
+	margin-top: 6em;
+}
+.cardscenter {
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
+
+/* signup */
+
+.signup {
+	background-color: rgb(58, 78, 109);
+}
+.heading1 {
+	font-family: 'Rouge Script', cursive;
+	font-size: 120px;
+	color: rgb(162, 182, 200);
+	text-align: center;
+	margin-bottom: 0.2em;
+}
+.underline {
+	width: 30%;
+}
+.center {
+	display: block;
+	align-content: center;
+	text-align: center;
+}
+
+/* profile */
+.profile {
+	background-color: rgb(215, 217, 228);
+}
+.crossfade1 img {
+    position:absolute;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;    
+    transition: opacity 1s ease-in-out;
+}
+ 
+.crossfade1 img.top:hover {
+    opacity:0;
+}
+
+.profileinfo {
+	margin-left: auto;
+	width: 80%;
+	margin-right: auto;
+	margin-top: 5em;
+}
+.profileinfowords {
+	margin-top: 5em;
+}
+.column3 {
+	width:50%;
+	float: left;
+}
+.proimg {
+	margin-left: 6em;
+	margin-top: -2.5em;
+}
+.current {
+	margin-top: 9em;
+}
+.dreams {
+	margin-left: auto;
+	width: 50%;
+	margin-right: auto;
+	margin-top: 11em;
+}
+
+.title6 {
+	font-family: 'Rouge Script', cursive;
+	color: rgb(58, 78, 109);
+	font-size: 70px;
+	margin-top: -1.5em;
+	margin-left: 5.5em
+}
+.title7, .title8, .title9 {
+	font-family: 'Rouge Script', cursive;
+	color: rgb(58, 78, 109);
+	font-size: 45px;
+	margin-left: 2em;
+}
+
+.dreaminfo, .dreaminfo1 {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(58, 78, 109);
+	font-size: 20px;
+	text-align: center;
+}
+.dreaminfo1 {
+	font-family: 'Roboto', sans-serif;
+	color: rgb(58, 78, 109);
+	font-size: 20px;
+	margin-left: 7em;
+	margin-top: -1.5em;
+}
+
+.dreamimg {
+	opacity: 0.6;
+}
+.dreamimg:hover {
+	opacity: 1;
+}
+
+/* nav bar */
+/*Code sourced from from www.w3schools.com/ and editied it for site*/
+.navicon {
+	float: right;
+	z-index: 5;
+	margin-top: -6.5em;
+	margin-right: 2em;
+	color: rgb(58, 78, 109);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(162, 182, 200);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 115px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.sidenav a {
+    padding: 8px 8px 25px 62px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(58, 78, 109);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: rgb(215, 217, 228);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+

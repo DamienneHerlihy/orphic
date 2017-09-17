@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html>
+	
+<head>
+	<link href="style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400|Rouge+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<title>Orphic Profile Page</title>
+</head>
+
+<body class="profile">
+		<div class="headerbox">
+		<header> 
+			<h1 class="logoo"> Orphic </h1>
+			<img class="headerimg" src="images/header.png"  width="35%" >
+		</header>
+	</div>
+
+
+<!-- nav bar -->
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="profile.html">Profile</a>
+	  <a href="about.html">About</a>
+	  <a href="contact.html">Contact</a>
+	  <a href="order.html">Order</a>
+	  <a href="index.html">Log Out</a>
+	</div>
+
+	<div class="navicon">
+		<span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+	</div>
+
+	<script>
+	function openNav() {
+	    document.getElementById("mySidenav").style.width = "250px";
+	}
+
+	function closeNav() {
+	    document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+
+	
+		<div class="proimg">
+			<div class="crossfade1">
+			    <img class="bottom" src="images/changeprofile.png" height="15%"" width="10%">
+		    	<img class="top" src="images/user.png" height="15%"" width="10%">
+		    </div>
+		</div>
+		<div class="column3">
+			<div class="current">
+				<h1 class="title6"> Lily Evans</h1>
+
+				
+
+			
+				<h3 class="title8">Current Dream</h3>	
+					<center>
+						<img src="images/couple.png" height="70%" width="70%">
+					</center>
+				<h3 class="title9">Dream Meaning</h3>
+					<p class="dreaminfo1"> On one of the many adventures you take around your holiday destination you meet a special someone. You both have similar interests and decide to get a drink together later. While on the date you both talk  and overall have a great time. Even though you weren't looking for love anytime soon it is possible you will find it if you choose to take this trip.  </p>	
+			</div>	
+		</div>
+
+	</div>
+	<div class="column3">
+		<div class="dreams">
+			<h3 class="title7">Past Dreams</h3>
+			<center>
+				<img class="dreamimg" src="images/hawaii.png" height="70%" width="70%">
+				<p class="dreaminfo">While on holiday you have rediscovered who you are <br> by adventuring outside of your usual comfort zones <br> and relaxing your mind. </p>
+		
+				<img class="dreamimg" src="images/airport.png" height="70%" width="70%">
+				<p class="dreaminfo"> You need a break! Being inside the same four walls is <br> starting to get to you. Tickets and aeroplanes keep <br> popping in and out of your dream suggesting a <br> holiday in the near future. </p>
+				
+			 	<img class="dreamimg" src="images/office.png" height="70%" width="70%">
+				<p class="dreaminfo">Lately it seems you have been feeling as though you <br> are confined within the walls of your office at work, <br> and that work is slowly taking control of your life.</p>
+			</center>
+		</div>
+	</div>
+
+</body>
+
+</html>
+
+<!--
+Reference
+nav bar code sourced from https://www.w3schools.com/ and edited  -->
